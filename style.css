@@ -13,7 +13,7 @@
 }*/
 body{
     font-family: "adobe-clean", sans-serif;
-     background-color: var(--color-pink);
+     background-color:var(--color-white);
      color: var(--color-white);
 }
 #logo-header{
@@ -237,7 +237,7 @@ transition: 1s;
 
     #Formacao{
       
-    background-color:var(--color-white);
+    background-color:rgba(188, 143, 143,0.5);
     display: block;
     height: auto;
     padding: 15px

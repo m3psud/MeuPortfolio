@@ -30,3 +30,13 @@ function toggleSidebar()
             toggleSidebar();
         }
     });
+
+    let repoProjects = () =>{
+       let url = "https://api.github.com/users/m3psud/repos"
+       fetch(url)
+       .then(resp => resp.json())
+       .then(projects => {
+           console.log(projects)
+       })
+    }
+    repoProjects()
