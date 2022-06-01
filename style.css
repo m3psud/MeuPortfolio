@@ -67,7 +67,7 @@ a:hover {
 align-content: center;
 padding-top: 0.2em;
 height: 80vh;
-border-radius: 50%;
+border-radius:50%;
 transition: 1s;
 
 }
@@ -120,9 +120,10 @@ transition: 1s;
         height: 150px;
         width: 150px;
         color: #ffffff;
-       margin-left: 200px;
-       margin-top: 0;
-        
+       margin: 0 auto;
+       top: -75px;
+
+
       }
 
       
@@ -180,6 +181,8 @@ transition: 1s;
 
        }
        h1{
+           font-size: 30px;
+           font-weight: 400px;
            color:var(--color-purple);
            text-transform: uppercase;
            margin: 1%;
@@ -187,19 +190,33 @@ transition: 1s;
        p{
            color: var(--color-gray);
        }
+     
        
-       #sobre-section{
-        width: 400px ;
-        height:50vh ;
-        padding: 4rem 1rem;
+       #sobre{
+        position: relative;
+        width: 100% ;
         display: flex;
-        justify-content:flex-end;
-        align-items:flex-start;
+        justify-content:center;
+        align-items:center;
         flex-direction:column;
-        margin-left:310px;
-        color: var(--color-gray);
-        padding: 4rem;
        
+       
+      }
+      #sobre, .presentacao, .avatar{
+          grid-column:span 2;
+      }
+      h1{
+          display: inline-block;
+      }
+      .presentacao{
+        position: relative;
+        margin:auto;
+      }
+      @media screen and (min-width: 630px) {
+          .presentacao {
+              width: 60%;
+          }
+          
       }
       .logo-tech{
           width:300px;}
@@ -216,59 +233,75 @@ transition: 1s;
     span{
         color:var(--color-gray);
     }
-    /*#Formacao,
-    #Experiencia {
-    margin: 20px auto auto 20px;
-    border-right-color: #050517;
-    padding: 3rem 1rem;
+   
 
-    }*/
-    .formacao-section{
+    #Formacao{
+      
+    background-color:var(--color-white);
+    display: block;
+    height: auto;
+    padding: 15px
+    }
+    #Experiencia{
+        background-color:#DEDEDE;
+        display: block;
+        height: auto;
+        padding: 15px
+        }
+    .formacao-geral,
+    .experiencia-geral{
+        margin: auto;
+        width: 70%;
+    }
+   
+    /*.formacao-section{
         background-color: var(--color-white);
     padding: 24px 32px 32px 32px;
-    }
+    }*/
   
-     #Experiencia{
-        background-color:var(--color-white);
-        padding: 24px 32px 32px 32px;
-        margin-top: 40px;
-    }
-
-
-    .instituicao {
-        text-transform: lowercase;
-        font-size: 12px;
-     
-      }
       
       .nome__formacao {
         font-weight: bold;
         color:var(--color-purple);
-       
+       margin-left: 10px;
+       margin-top: 8px;
+      }
+      
+    
+      .datas{
+          margin-left: 10px;
+          margin-top: 10px;
+          text-transform: capitalize;
+          font-size: 10px;
       }
       
       .formacao1,
       .formacao2,
-      .formacao3 {
-      
-        border-radius: 2px;
-        justify-content: center;
-        align-content: center;
-        flex-direction: row;
-        align-items: center;
-        margin: 30px;
-       
+      .formacao3{
+          margin: 15px 20px ;
+          position:relative;
+          display: flex;
+          flex-direction: column;
+          line-height: 0.5px;
+      }
+      .instituicao{
+          margin-top: 5px;
+          margin-bottom: 3%;
+          text-transform: uppercase;
+          font-size: 10px;
+          margin-left: 10px;
       }
 
 /*projects*/
 
-h2{
+h2, #sobre h2{
     color:var(--color-purple);
     font-weight: bold;
+    margin-left: 20px;
 }
 #projects {
     padding: 4rem;
-    background-color:rgb(255, 239, 213);
+   
 }
 
 .projects-section {
@@ -404,31 +437,25 @@ label {
     padding: 24px 32px 32px 32px;
     
 
+
   }
+ 
   .perguntas-interesse{
       color: var(--color-gray);
   }
  @media screen and (min-width: 770px) {
-    #contact-section,.formacao-section{
+    #contact-section{
        width: 400px;
        border-radius: 5px;
        box-shadow: 0 4px 12px var(--color-rosybrow);
-       padding: 5rem 2rem;
+       padding: 4rem 2rem;
        margin: auto ;
+       
       
       
      }
     
-     #Experiencia{
-        width: 400px;
-        padding: 4rem 2rem;
-        margin: auto;
-        margin-top:40px;
-        background-color:white ;
-        border-radius: 5px;
-        box-shadow: 0 4px 12px rosybrown;
-
-     }
+    
      #profile-link{
          display:flex;
          flex-direction: column;
@@ -452,4 +479,16 @@ label {
     flex-direction: column;
     margin: 4px;
 
+}
+.borda{
+    background-color:var(--color-purple);
+   content: "";
+    width: 5px;
+    display: inline-block;
+    width: 5px;
+    height: 80%;
+    top: 0;
+    position: absolute;
+    border-radius: 15%;
+    margin-right: 30px;
 }
