@@ -121,7 +121,7 @@ transition: 1s;
         width: 150px;
         color: #ffffff;
        margin-left: 200px;
-       margin-top: 60px;
+       margin-top: 10px;
         
       }
 
@@ -189,7 +189,7 @@ transition: 1s;
        
        #sobre-section{
         width: 400px ;
-        height:50vh ;
+        height:45vh ;
         padding: 4rem 1rem;
         display: flex;
         justify-content:flex-end;
