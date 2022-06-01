@@ -189,7 +189,7 @@ transition: 1s;
        
        #sobre-section{
         width: 400px ;
-        height:45vh ;
+        height:60vh ;
         padding: 4rem 1rem;
         display: flex;
         justify-content:flex-end;
@@ -303,7 +303,9 @@ h2{
     }
 
     #sobre-section{
+
      width: 300px;
+     height:80vh ;
     border-radius: 8px;
     padding: 5rem 1rem;
      margin: auto;
@@ -415,6 +417,7 @@ label {
       
       
      }
+    
      #Experiencia{
         width: 450px;
         padding: 4rem 2rem;
