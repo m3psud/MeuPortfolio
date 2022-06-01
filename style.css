@@ -428,6 +428,10 @@ label {
         box-shadow: 0 4px 12px rosybrown;
 
      }
+     #profile-link{
+         display:flex;
+         flex-direction: column;
+     }
     
  }
   
@@ -436,8 +440,8 @@ label {
   flex-direction:row;
   align-items:center;
   justify-content:space-around;
-    color: var(--color-white);
-    background-color:#02887a;
+  color: var(--color-white);
+   background-color:#02887a;
    margin-top: 10px;
 
 }
