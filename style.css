@@ -297,14 +297,14 @@ transition: 1s;
 .titulo-formacao,
 .titulo-experiencia,
 .titulo-projeto{
-    margin-left: 10rem;
+    margin-left: 40px;
 }
 
 h2, #sobre h2 {
     color:var(--color-purple);
     font-size: 35px;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 
