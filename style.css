@@ -195,7 +195,7 @@ transition: 1s;
         justify-content:flex-end;
         align-items:flex-start;
         flex-direction:column;
-        margin-left:300px;
+        margin-left:310px;
         color: var(--color-gray);
         padding: 4rem;
        
@@ -409,7 +409,7 @@ label {
   }
  @media screen and (min-width: 770px) {
     #contact-section,.formacao-section{
-       width: 450px;
+       width: 400px;
        border-radius: 5px;
        box-shadow: 0 4px 12px var(--color-rosybrow);
        padding: 5rem 2rem;
@@ -419,7 +419,7 @@ label {
      }
     
      #Experiencia{
-        width: 450px;
+        width: 400px;
         padding: 4rem 2rem;
         margin: auto;
         margin-top:40px;
