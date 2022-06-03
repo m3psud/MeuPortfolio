@@ -379,6 +379,7 @@ h2, #sobre h2 {
     border-radius: 3px;
     color:rgb(105,105,105);
 }
+/*
 label {
     display: flex;
     align-items: center;
@@ -397,9 +398,6 @@ label {
     background-color: #ffffff;
 }
 
-  #e-mail{
-    border : 2px solid red !important;
-  }
 
   
   input,
@@ -454,7 +452,7 @@ label {
     
 
 
-  }
+  }*/
  
   .perguntas-interesse{
       color: var(--color-gray);
@@ -510,13 +508,7 @@ label {
 }
 
 
-.form-control.error i.img-error {
-    visibility: visible;
-}
 
-.form-control.success i.img-success {
-    visibility: visible;
-}
 .container {
     background-color: #2F3644; 
     box-shadow: 1px 1px 4px var(--color-rosybrow);
@@ -593,11 +585,18 @@ label {
 
 .form-control i {
     position: absolute;
-    top: 45px;
-    right: 10px;
+    top: 40px;
+    right: 5px;
     visibility: hidden;
 }
+.form-control.error i.img-error {
+   
+    visibility: visible;
+}
 
+.form-control.success i.img-success {
+    visibility: visible;
+}
 .form-control small {
     visibility: hidden;
     position: absolute;
@@ -618,6 +617,7 @@ label {
     margin-top: 5px;
 
     cursor: pointer;
+    border-color:var(--color-purple);
 }
 
 .form button:hover {
@@ -627,4 +627,4 @@ label {
  .perguntas-interesse{
    color: var(--color-white);
  }
- #584ff5
+ 
