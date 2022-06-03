@@ -30,6 +30,9 @@ window.addEventListener('resize', function (event) {
     }
 });
 
+
+//API
+
 const repoProjects = () => {
     const url = "https://api.github.com/users/m3psud/repos"
     fetch(url)
@@ -42,7 +45,11 @@ repoProjects()
 document.addEventListener("DOMContentloaded", function startApp() {
 
 })
+let api = getElementById('project-github')
+append.child(api)
 
+
+//validação do formulario de contato
 
  const form = document.getElementById('form')
  const nome = document.getElementById('username')
