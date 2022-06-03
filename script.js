@@ -51,7 +51,7 @@ document.addEventListener("DOMContentloaded", function startApp() {
  const mensagem = document.getElementById('mensagem')
 
  form.addEventListener('submit', (e) => {
-   e.preventDefault()
+    e.preventDefault()
 
     checkInputs()
 })
