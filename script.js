@@ -31,8 +31,8 @@ function toggleSidebar()
         }
     });
 
-    let repoProjects = () =>{
-       let url = "https://api.github.com/users/m3psud/repos"
+    const repoProjects = () =>{
+       const url = "https://api.github.com/users/m3psud/repos"
        fetch(url)
        .then(resp => resp.json())
        .then(projects => {
@@ -40,3 +40,10 @@ function toggleSidebar()
        })
     }
     repoProjects()
+    document.addEventListener("DOMContentloaded", function startApp (){
+        
+    })
+
+
+       
+      

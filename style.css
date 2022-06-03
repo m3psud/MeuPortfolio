@@ -13,7 +13,7 @@
 }*/
 body{
     font-family: "adobe-clean", sans-serif;
-     background-color:rgba(188, 143, 143,0.5);
+     background-color:#2F3644;
      color: var(--color-white);
 }
 #logo-header{
@@ -41,7 +41,7 @@ body{
 .navigation_header a{
 
     text-decoration: none;
-    color: var(--color-gray);
+    color: var(--color-pink);
     transition: 1s;
     font-weight: bold;
 
@@ -177,15 +177,18 @@ transition: 1s;
            text-transform:capitalize;
            margin: 1%;
          
-           color:var(--color-purple);
+           color:var(--color-pink);
 
        }
        h1{
            font-size: 30px;
            font-weight: 400px;
-           color:var(--color-purple);
+           color:var(--color-pink);
            text-transform: uppercase;
            margin: 1%;
+       }
+       .titulos2,.titulo-projeto{
+           color: var(--color-pink);
        }
        p{
            color: var(--color-gray);
@@ -237,7 +240,7 @@ transition: 1s;
 
     #Formacao{
       
-    background-color:rgba(188, 143, 143,0.5);
+    background-color:aliceblue;
     display: block;
     height: auto;
     padding: 15px
@@ -254,21 +257,17 @@ transition: 1s;
         width: 70%;
     }
    
-    /*.formacao-section{
-        background-color: var(--color-white);
-    padding: 24px 32px 32px 32px;
-    }*/
+    
   
       
       .nome__formacao {
         font-weight: bold;
         color:var(--color-purple);
        margin-left: 10px;
-       margin-top: 8px;
+       margin-top: 5px;
        font-size: 1em;
       }
       
-    
       .datas{
           margin-left: 10px;
           margin-top: 10px;
@@ -297,8 +296,11 @@ transition: 1s;
 .titulo-formacao,
 .titulo-experiencia,
 .titulo-projeto{
-    margin-left: 40px;
+    margin-left: 10rem;
 }
+
+    
+
 
 h2, #sobre h2 {
     color:var(--color-purple);
@@ -385,7 +387,7 @@ label {
     border-radius: 2px;
     border-color: transparent;
   }
-  .form-contact {
+ .form-contact {
 
     display: block;
     width: 95%;
@@ -393,7 +395,12 @@ label {
     padding: 0.100rem 0.60rem;
     border: 1px solid #d3d5d7;
     background-color: #ffffff;
+}
+
+  #e-mail{
+    border : 2px solid red !important;
   }
+
   
   input,
   button,
@@ -501,3 +508,123 @@ label {
     border-radius: 15%;
     margin-right: 30px;
 }
+
+
+.form-control.error i.img-error {
+    visibility: visible;
+}
+
+.form-control.success i.img-success {
+    visibility: visible;
+}
+.container {
+    background-color: #2F3644; 
+    box-shadow: 1px 1px 4px var(--color-rosybrow);
+    border-radius: 5px;
+    border: 2px solid var(--color-rosybrow);
+    width: 450px;
+    max-width: 100%;
+    margin: auto;
+   
+}
+
+.titulo-form {
+   
+    padding: 30px 40px;
+  
+  text-align:left;
+ 
+}
+
+.titulo-form h2{
+    margin-left: 3px;
+    font-weight: 600;
+    color:var(--color-rosybrow);
+    font-size: 30px;
+    text-align:left;
+}
+
+.form {
+    padding: 0 40px 30px;
+  
+   
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color:var(--color-rosybrow);
+}
+
+.form-control input, .input-textarea{
+    border: 2px solid #3E445B;
+    border-radius: 5px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+
+    width: 100%;
+    padding: 15px;
+}
+
+.form-control.success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-control.error input {
+    border: 3px solid #DB5A5A;
+}
+
+
+
+.form-control.error small{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+
+.form button {
+    background-color:var(--color-rosybrow);
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+
+    margin-top: 5px;
+
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color:var(--color-purple);
+    transition: 0.3s;
+}
+ .perguntas-interesse{
+   color: var(--color-white);
+ }
+ #584ff5
