@@ -32,22 +32,42 @@ window.addEventListener('resize', function (event) {
 
 
 //API
+fetch ('https://api.github.com/users/m3psud/repos')
+.then(resp => resp.json())
+.then(resp => {
+ 
+  var github = document.getElementById('project-github')
 
-const repoProjects = () => {
-    const url = "https://api.github.com/users/m3psud/repos"
-    fetch(url)
-        .then(resp => resp.json())
-        .then(projects => {
-            console.log(projects)
-        })
-}
-repoProjects()
-document.addEventListener("DOMContentloaded", function startApp() {
+  resp.map((item)=>{
+    
+    var li = document.createElement('li')
 
+    var link = document.createElement('a')
+
+  
+    
+    link.href = item.html_url
+
+    link.innerHTML = item.html_url
+     
+    link.href=item.html_url
+    
+    link.innerHTML= (item.name)
+    link.target='_blank'
+
+    li.append(link)
+
+    github.append(li)
+  })
 })
-let api = getElementById('project-github')
-append.child(api)
 
+document.addEventListener("DOMContentloaded", function startApp() {
+  
+})   
+ 
+
+ 
+    
 
 //validação do formulario de contato
 
@@ -60,7 +80,7 @@ append.child(api)
  form.addEventListener('submit', (e) => {
     e.preventDefault()
 
-    checkInputs()
+    checkInputs();
 })
 
  function checkInputs(){

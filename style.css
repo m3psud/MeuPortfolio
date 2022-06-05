@@ -297,6 +297,7 @@ transition: 1s;
           flex-direction: column;
           line-height: 0.5px;
           
+          
       }
       .instituicao{
          
@@ -306,11 +307,12 @@ transition: 1s;
           margin-left: 10px;
       }
 
-/*projects*/
+
 .titulo-formacao,
 .titulo-experiencia,
 .titulo-projeto{
  margin:auto;
+
 
 }
 .titulo-experiencia{
@@ -326,7 +328,7 @@ h2, #sobre h2 {
     margin-left: 40px;
 }
 
-
+/*projects*/
 #projects {
     padding: 4rem;
    
@@ -440,8 +442,8 @@ h2, #sobre h2 {
 }
 .borda{
     background-color:var(--color-purple);
-   content: "";
-    width: 5px;
+    content: "";
+    width: 3px;
     display: inline-block;
     width: 5px;
     height: 80%;
@@ -583,4 +585,10 @@ h2, #sobre h2 {
  .perguntas-interesse{
    color: var(--color-white);
  }
- 
+  #project-github a{
+    
+     text-decoration: none;
+  }
+  #project-github{
+    
+  }
