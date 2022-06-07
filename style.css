@@ -369,7 +369,7 @@ h2, #sobre h2 {
     #sobre-section{
 
      width: 300px;
-     height:62vh ;
+    
     border-radius: 8px;
     padding: 5rem 1rem;
      margin: auto;
@@ -588,7 +588,27 @@ h2, #sobre h2 {
   #project-github a{
     
      text-decoration: none;
+     list-style: none;
+
+  }
+  #project-github li{
+    list-style: none;
   }
   #project-github{
+    
+font-size: 12px;
+display: flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+align-content:center;
+
+  }
+  .title-projetinhos{
+    font-size: 30px;
+    background-color:;
+    color: var(--color-purple);
+    border-radius: 2px;
+    padding: 1rem;
     
   }
