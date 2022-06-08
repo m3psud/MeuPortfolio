@@ -403,17 +403,9 @@ h2, #sobre h2 {
   .perguntas-interesse{
       color: var(--color-gray);
   }
- @media screen and (min-width: 770px) {
-    #contact-section {
-       width: 400px;
-       border-radius: 5px;
-       box-shadow: 0 4px 12px var(--color-rosybrow);
-       padding: 4rem 2rem;
-       margin: auto ;
+
+    
        
-      
-      
-     }
     
     
      #profile-link{
@@ -421,7 +413,7 @@ h2, #sobre h2 {
          flex-direction: column;
      }
     
- }
+ 
   
 .contact-links{
   display: flex;
@@ -467,7 +459,7 @@ h2, #sobre h2 {
 
 
 
-.container {
+#container {
     background-color: #2F3644; 
     box-shadow: 1px 1px 4px var(--color-rosybrow);
     border-radius: 5px;
@@ -598,13 +590,7 @@ h2, #sobre h2 {
   }
   #project-github{
     
-/*font-size: 12px;
-display: flex;
-flex-direction:column;
-align-items:flex-start;
-justify-content:center;
-align-content:center;
-width: 300px;*/
+
 
        border-radius: 4px;
        box-shadow: 0 4px 12px var(--color-rosybrow);
