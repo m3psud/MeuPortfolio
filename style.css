@@ -404,7 +404,7 @@ h2, #sobre h2 {
       color: var(--color-gray);
   }
  @media screen and (min-width: 770px) {
-    #contact-section,#project-github {
+    #contact-section {
        width: 400px;
        border-radius: 5px;
        box-shadow: 0 4px 12px var(--color-rosybrow);
@@ -598,17 +598,17 @@ h2, #sobre h2 {
   }
   #project-github{
     
-font-size: 12px;
+/*font-size: 12px;
 display: flex;
 flex-direction:column;
 align-items:flex-start;
 justify-content:center;
 align-content:center;
-width: 300px;
+width: 300px;*/
 
        border-radius: 4px;
        box-shadow: 0 4px 12px var(--color-rosybrow);
-       padding: 3rem 1rem;
+      
        margin: auto ;
        background-image:linear-gradient(
         100deg,
@@ -617,7 +617,9 @@ width: 300px;
       ),
       url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8d6ApTCki-lAMtnBMTbSRfYpEpk66QgKrzQ&usqp=CAU);
 
-              
+      display: block;
+      height: auto;
+      padding: 15px         
   }
   .title-projetinhos{
     font-size: 30px;
