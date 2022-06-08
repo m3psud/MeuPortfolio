@@ -404,7 +404,7 @@ h2, #sobre h2 {
       color: var(--color-gray);
   }
  @media screen and (min-width: 770px) {
-    #contact-section{
+    #contact-section,#project-github {
        width: 400px;
        border-radius: 5px;
        box-shadow: 0 4px 12px var(--color-rosybrow);
@@ -589,26 +589,43 @@ h2, #sobre h2 {
     
      text-decoration: none;
      list-style: none;
-
+     color:var(--color-white);
+     font-weight: bold;
   }
   #project-github li{
     list-style: none;
+    padding: 5px;
   }
   #project-github{
     
 font-size: 12px;
 display: flex;
 flex-direction:column;
-align-items:center;
+align-items:flex-start;
 justify-content:center;
 align-content:center;
+width: 300px;
 
+       border-radius: 4px;
+       box-shadow: 0 4px 12px var(--color-rosybrow);
+       padding: 3rem 1rem;
+       margin: auto ;
+       background-image:linear-gradient(
+        100deg,
+        rgba(60,54,54, 0.8),
+        rgba(136, 136, 206, 0.4)
+      ),
+      url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8d6ApTCki-lAMtnBMTbSRfYpEpk66QgKrzQ&usqp=CAU);
+
+              
   }
   .title-projetinhos{
     font-size: 30px;
-    background-color:;
-    color: var(--color-purple);
-    border-radius: 2px;
-    padding: 1rem;
+    font-weight:bold;
+    color: var(--color-pink);
+    margin-top: 0;
+    text-align: center;
     
   }
+
+    

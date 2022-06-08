@@ -43,19 +43,19 @@ fetch ('https://api.github.com/users/m3psud/repos')
     var li = document.createElement('li')
 
     var link = document.createElement('a')
-
+   
   
     
     link.href = item.html_url
 
     link.innerHTML = item.html_url
-     
-    link.href=item.html_url
-    
+   
+  
     link.innerHTML= (item.name)
     link.target='_blank'
 
     li.append(link)
+   
 
     github.append(li)
   })
@@ -63,7 +63,8 @@ fetch ('https://api.github.com/users/m3psud/repos')
 
 document.addEventListener("DOMContentloaded", function startApp() {
   
-})   
+})  
+ 
  
 
  
